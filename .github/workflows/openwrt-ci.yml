@@ -224,11 +224,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-wol=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-zerotier=y
-          # aliyun ddns:
-          CONFIG_DEFAULT_ddns-scripts_aliyun=y
-          CONFIG_DEFAULT_ddns-scripts_dnspod=y
-          CONFIG_PACKAGE_ddns-scripts_aliyun=y
-          CONFIG_PACKAGE_ddns-scripts_dnspod=y
           EOF
 
           # LuCI主题:
